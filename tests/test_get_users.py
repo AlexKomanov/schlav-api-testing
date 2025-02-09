@@ -21,10 +21,3 @@ def test_users_response_ok(users_list_response):
 
 def test_users_response_reason(users_list_response):
     assert_that(users_list_response.reason).is_equal_to('OK')
-
-def test_users_response_ok(users_list_response):
-    assert_that(users_list_response.ok).is_true()
-
-
-def test_users_response_reason(users_list_response):
-    assert_that(users_list_response.reason).is_equal_to('OK')
